@@ -9,26 +9,28 @@
     <meta name="author" content="ToucanWin" />
     <meta name="theme-color" content="#06d79c" />
     <title>ToucanWin Rewards - Earn Points & Unlock Exclusive Rewards</title>
-    
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://toucanwin-rewards.com/" />
-    <meta property="og:title" content="ToucanWin Rewards - Earn Points & Unlock Exclusive Rewards" />
-    <meta property="og:description" content="Join ToucanWin Rewards to earn points, participate in campaigns, bid in auctions, and unlock exclusive rewards." />
-    <meta property="og:image" content="https://quest-media-storage-bucket.s3.us-east-2.amazonaws.com/1752868693247-blob" />
 
-    <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image" />
-    <meta property="twitter:url" content="https://toucanwin-rewards.com/" />
-    <meta property="twitter:title" content="ToucanWin Rewards - Earn Points & Unlock Exclusive Rewards" />
-    <meta property="twitter:description" content="Join ToucanWin Rewards to earn points, participate in campaigns, bid in auctions, and unlock exclusive rewards." />
-    <meta property="twitter:image" content="https://quest-media-storage-bucket.s3.us-east-2.amazonaws.com/1752868693247-blob" />
-    
     <!-- Preload critical resources -->
-    <link rel="preload" href="https://quest-media-storage-bucket.s3.us-east-2.amazonaws.com/1752868693247-blob" as="image" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" as="style" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" />
+    
+    <!-- Error Tracking -->
+    <script>
+      window.onerror = function(msg, url, lineNo, columnNo, error) {
+        console.error('Error: ' + msg + '\nURL: ' + url + '\nLine: ' + lineNo + '\nColumn: ' + columnNo + '\nError object: ' + JSON.stringify(error));
+        return false;
+      };
+    </script>
   </head>
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
+    <noscript>
+      <div style="padding: 20px; text-align: center;">
+        Please enable JavaScript to use ToucanWin Rewards.
+      </div>
+    </noscript>
   </body>
 </html>

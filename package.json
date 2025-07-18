@@ -8,7 +8,8 @@
     "build": "vite build",
     "lint": "eslint . --fix",
     "lint:check": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "postbuild": "cp public/_redirects dist/"
   },
   "dependencies": {
     "@chakra-ui/react": "^2.8.2",
